@@ -9,5 +9,6 @@
   	<module>automate_ios_native_app</module>
   	<module>automate_android_native_app</module>
   	<module>automate_rest_api_app</module>
+  	<module>automate_common_tests</module>
   </modules>
 </project>

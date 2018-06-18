@@ -12,7 +12,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import net.orfdev.integration.test.util.OSUtil;
 
-public class TestContextMobile {
+public class TestContextMobileBrowserStack {
 
 	public static WebDriver driver;
 	String hostname;
@@ -22,7 +22,7 @@ public class TestContextMobile {
 	  public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
 
-	public TestContextMobile() throws MalformedURLException {
+	public TestContextMobileBrowserStack() throws MalformedURLException {
 		if (driver == null) {
 			if (OSUtil.isUnix())
 				System.setProperty("webdriver.firefox.bin", "/opt/firefox46/firefox");

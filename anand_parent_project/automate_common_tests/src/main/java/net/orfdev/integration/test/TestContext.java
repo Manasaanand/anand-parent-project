@@ -35,10 +35,6 @@ public class TestContext {
 		if (OSUtil.isUnix())
 			System.setProperty("webdriver.firefox.bin", "/opt/firefox46/firefox");
 		else {
-			// Calendar c = Calendar.getInstance();
-			// int dayOfWeek = c.get(Calendar.DAY_OF_WEEK);
-			// int today = dayOfWeek - 1;
-
 			if (driver == null) {
 
 				try {

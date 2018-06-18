@@ -32,7 +32,7 @@ import org.springframework.util.StringUtils;
 
 import cucumber.api.Scenario;
 import net.orfdev.integration.test.TestContext;
-import net.orfdev.integration.test.TestContextMobile;
+import net.orfdev.integration.test.TestContextMobileBrowserStack;
 
 public class NavigatorAdmin {
 
@@ -48,7 +48,7 @@ public class NavigatorAdmin {
 
 	}
 
-	public NavigatorAdmin(TestContextMobile testContextMobile) throws IOException {
+	public NavigatorAdmin(TestContextMobileBrowserStack testContextMobile) throws IOException {
 		this.webDriver = testContextMobile.getDriver();
 
 	}
